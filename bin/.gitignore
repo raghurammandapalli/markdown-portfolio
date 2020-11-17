@@ -1,0 +1,39 @@
+/target/
+
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+#*.off
+*.old
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+.factorypath
+
+
+# building
+target
+build
+null
+tmp*
+temp*
+dist
+test-output
+build.log
+
+
+src/main/java/cs6359/utdcart/test/*
+src/main/java/cs6359/utdcart/launcher/*
+
+*.ucls
+*.zip
+*.jar
+*.war
+*.log
